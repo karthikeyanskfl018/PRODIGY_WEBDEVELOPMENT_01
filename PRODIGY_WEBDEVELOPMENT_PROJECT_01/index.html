@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Interactive Navigation</title>
+
+    <script src="form.js"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <img src="Profile.png" alt="NO"> 
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <div class="main">
+           <h1 class="headings">I AM <br> KARTHIKEYAN R</h1> 
+            <button class="btn">
+                <a href="#about">About Me</a>
+            </button>
+        </div>
+    </section>
+
+    <section id="about">
+        <h1 class="headings">ABOUT ME</h1>
+            <div id="intro">
+                <h2>KARTHIKEYAN R</h2>
+                <P><br>I'm Karthikeyan and I am from P.V.Kalathur, Chengalpattu. TamilNadu India. 
+                    I'm Completed Masters of Science in Computer Science and Technology at SRM Arts and College, Kattankulathur, Kanchipuram.<br><br>
+                    <ul><h3>
+                    <li><b>BIRTHDAY :</b> 18 October 2000</li>
+                    <br>
+                    <li><b>AGE :</b>23 </li>
+                    <br>
+                    <li><b>CITY :</b> P.V.Kalathur , Chengalpattu</li>
+                    <br>
+                    <li><b>STATE :</b> TamilNadu</li>
+                    <br>
+                    <li><b>COUNTRY :</b> India</li>
+                    <br>
+                    <li><b>EMAIL :</b> karthikeyanskfl@gmail.com</li>
+                    <br>
+                    <li><b>DEGREE :</b> M.Sc,Computer Science and Technology Integrated</li>
+                    <br>
+                    <li><b>PASSED OUT :</b> 2022</li></h3>
+                </ul>
+                </P>
+                
+            </div>
+    </section>
+
+    <section id="education">
+        <h1 class="headings">EDUCATION</h1>
+        <div class="row">
+            <div class="box">
+                <img src="Higher School.png" alt="">
+                <h10 class="headings">High School</h10>
+                <p><b>2014-2015</b><br>
+                    <br>Seventh Day Adventist Higher Secondary School, Chengalpattu
+                    <br>Completed High School education from Seventh Day Adventist Higher Secondary School, Chengalpattu 
+                    <br>under Tamilnadu State board
+                </p>
+            </div>
+            <div class="box">
+                <img src="Higher Secondary School.png" alt="">
+                <h10 class="headings">Higher Secondary <br>School</h10>
+                <p><b>2016-2017</b><br>
+                    <br>Little Jacky Matric Higher Secondary School,Chengalpattu
+                    <br>Completed Higher secondary education from Little Jacky Matric Higher Secondary School in Maths-Computer Science
+                    <br>under Tamilnadu State board
+                </p>
+            </div>
+            <div class="box">
+                <img src="College.png" alt="">
+                <h10 class="headings">Integrated PG</h10>
+                <p><b>2017-2022</b><br>
+                    <br>M.Sc,Computer Science and Technology Integrated SRM Arts and Science College Kattankulathur                     
+                    <br>Completed Masters of Computer Science and Technology Integrated 
+                    from SRM Arts and College Kattankulathur
+                    <br>(Affiliated to the University of Madras)
+                    
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h1 class="headings">CONTACT</h1>
+        
+        <h><b>NAME :</b></h>
+        <p>KARTHIKEYAN R</p>
+        <br>
+        <h><b>ADDRESS :</b></h>
+        <p>P.V.Kalathur, Chengalpattu, TamilNadu India.</p>
+        <br>
+        <h><b>EMAIL :</b></h>
+        <p>karthikeyanskfl@gmail.com</p>
+        <br>
+        <div class="img">
+        <h><b>SOCIAL PROFILES :</b></h>
+        <P>
+            <a href="https://www.linkedin.com/in/karthikeyan-r-skfl0182000/"><img src="linkedin.png" alt=""></a>
+        </P>
+        </div>
+        
+        
+        <form action="" class="form" onsubmit="Hello()">
+            <h2>MESSAGE ME </h2>
+            <input type="text" name="Name" class="input" placeholder="Enter your Name">
+            <input type="email" name="Email" class="input" placeholder="Enter your Email">
+            <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Enter your Message"></textarea>
+            <input type="submit" value="SEND" id="send">
+        </form>
+    </section>
+</body>
+</html>
